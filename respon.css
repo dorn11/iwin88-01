@@ -1,0 +1,52 @@
+@media (min-width: 320px) and (max-width: 480px){
+    .title {
+        font-size: 14px;
+        color: rgb(240, 143, 74);
+    }
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+    .navbar ul {
+        float: right;
+        margin-right: 10px;
+        display: none;
+    }
+    .logo img {
+        width: 70%;
+        margin-left: 10%;
+        padding: 5px;
+    }
+    .logo {
+        width: 30%;
+    }
+    .icon {
+        width: 100%;
+        margin: auto;
+        transition: .5s;
+    }
+    *, ::after, ::before {
+        box-sizing: border-box;
+        font-size: 13px;
+    }
+    .icon img {
+        width: 40%;
+        padding: 20px;
+        margin-left: 20px;
+        transition: 1s;
+    }
+    .footer {
+        width: 100%;
+        margin: auto;
+        display: flex;
+    }
+    .foot img {
+        width: 50%;
+    }
+    .foot-B {
+        width: 100%;
+    }
+    .foot-C {
+        width: 100%;
+    }
+}

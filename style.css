@@ -1,0 +1,152 @@
+.header{
+    width: 100%;
+    background-color: rgb(21, 26, 26);
+    display: flex;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 20%;
+    margin-left: 10%;
+    padding: 5px;
+}
+.navbar{
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+}
+.navbar ul{
+    float: right;
+    margin-right: 10px;
+}
+.navbar ul li{
+    display: inline-block;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: azure;
+    padding:  20px;
+}
+ul li:hover{
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+   color: rgb(255, 0, 43);
+}
+/* search */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.d-flex{
+    width: 50%;
+    background-color: aqua;
+    margin-left: 30%;
+}
+.title{
+    font-size: 20px;
+    color: rgb(240, 143, 74);
+}
+.icon{
+    width: 70%;
+    margin: auto;
+    transition: .5s;
+}
+.icon img{
+    width: 20%;
+    padding: 20px;
+    margin-left:20px;
+    transition: 1s;
+}
+.icon img:hover{
+   transform:scale(1.3) ;
+   box-sizing: 2px 2px;
+}
+/* poin */
+.poin{
+    padding: 0 20px;
+}
+/* slide */
+.slide{
+    width: 90%;
+}
+.slide img{
+    width: 90%;
+    margin-left: 10%;
+
+}
+footer{
+    width: 100%;
+    background-color: antiquewhite;
+}
+.footer{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+}
+.foot img{
+    width: 20%;
+    
+}
+.foot img{
+    width: 20%;
+}
+.foot-B{
+    width: 60%;
+}
+.foot-C{
+    width: 30%;
+}
+.foot-C img{
+    width: 10%;
+}
+.footer-link{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* menu */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 5%;
+    width: 0%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fcf9f9;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
